@@ -11,7 +11,7 @@ button{
     text-align: center;
     align-content: center;
     position: relative;
-    left: -40px;
+    left: -20px;
     transition: background-color 0.6s ease;
 }
 
@@ -59,6 +59,7 @@ button:hover  #hole-icon{
     left: 45px;
     top: -20px;
 }
+
 
 
 
