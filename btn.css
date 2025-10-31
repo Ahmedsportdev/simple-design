@@ -1,0 +1,54 @@
+button{
+    width: 250px;
+    padding: 10px;
+    height: 42px;
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(130, 89%, 32%);
+    color: #fff;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    left: -30px;
+}
+
+
+#icon{
+    position: absolute;
+    top: 13.3px;
+    left: 147px;
+}
+#hr-icon{
+    color: #fff;
+    position: absolute;
+    left: 125px;
+    top: 14.98px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#text{
+    position: absolute;
+    left: 68px;
+    top: 13px;
+}
+
+button:hover{
+    background-color: #007000;
+    cursor: pointer;
+}
+
+#hole-icon{
+    position: relative;
+    transition: left 1.5s ease, right 1s ease;
+    left: 30px;
+    top: -20px;
+}
+
+button:hover  #hole-icon{
+    left: 45px;
+    top: -20px;
+}
+
