@@ -31,7 +31,7 @@ button{
     color: #fff;
     position: absolute;
     left: 125px;
-    top: 23px;
+    top: 13px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -59,4 +59,5 @@ button:hover  #hole-icon{
     left: 45px;
     top: -20px;
 }
+
 
