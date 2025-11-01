@@ -11,7 +11,8 @@ button{
     text-align: center;
     align-content: center;
     position: relative;
-    left: -15px;
+    left: -27px;
+    top: 200px;
     transition: background-color 0.6s ease;
 }
 
@@ -19,7 +20,11 @@ button{
     background-color: #0077ff;
     position: absolute;
     top: 1100px;
-    left: 33px;
+    left: 23px;
+    transition: background-color 0.8s ease;
+}
+#show-inf:hover{
+    background-color: #005dc7;
 }
 
 #icon{
@@ -50,7 +55,7 @@ button:hover{
 
 #hole-icon{
     position: relative;
-    transition: left 1.5s ease, right 1s ease;
+    transition: left 1s ease, right 0.6s ease;
     left: 30px;
     top: -20px;
 }
