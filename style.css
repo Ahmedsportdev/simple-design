@@ -1,83 +1,77 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body, html{
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-}
-body{
-    background-color: #000;
-    color:#fff;
-    font-family: Arial, Helvetica, sans-serif;
-}
-#div-img{
-    width: 100%;
-    height: 300px;
-    background: #017000;
-    margin: 0%;
-    padding: 0%;
+button{
+    width: 250px;
+    padding: 10px;
+    height: 42px;
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(130, 89%, 32%);
+    color: #fff;
     text-align: center;
     align-content: center;
-}
-
-img{
-    opacity: 1;
-    width: 300px;
-}
-
-section{
-    margin: 0%;
-    padding: 0%;
-    position: absolute;
-    width: 100%;
-    left: 0px;
-    top: -1px;
-}
-
-#content-section{
-    position: absolute;
-    top: 300px;
-}
-
-#s-content-section{
-    position: absolute;
-    top: 650px;
-}
-
-h4{
     position: relative;
+    left: -27px;
+    top: 200px;
+    transition: background-color 0.6s ease;
+}
+
+#show-inf{
+    background-color: #0077ff;
+    position: absolute;
+    top: 1100px;
+    left: 23px;
+    transition: background-color 0.8s ease;
+}
+#show-inf:hover{
+    background-color: #005dc7;
+}
+
+#icon{
+    position: absolute;
+    top: 15px;
+    left: 147px;
+}
+#hr-icon{
+    color: #fff;
+    position: absolute;
+    left: 125px;
+    top: 22px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-weight: bolder;
+    font-size: 30px;
+    height: 3px;
+    background-color: #fff;
+}
+
+#text{
+    position: absolute;
+    left: 68px;
+    top: 13px;
+}
+
+button:hover{
+    background-color: #006000;
+    cursor: pointer;
+    transition: background-color 0.6s ease;
+}
+
+#hole-icon{
+    position: relative;
+    transition: left 1s ease, right 0.6s ease;
     left: 30px;
-    padding: 0%;
-    width: 500px;
+    top: -20px;
 }
 
-.hidden{
-    transition: all 0.5s ease-out;
+button:hover  #hole-icon{
+    left: 45px;
+    top: -20px;
 }
 
-#enter-course{
-    position: absolute;
-    top: 1000px;
-    left: 50px;
-    width: 230px;
-}
 
-#empty{
-    height: 50px;
-    width: 50px;
-    position: absolute;
-    top: 1300px;
-}
 
-.hidden{
-    opacity: 0;
-}
 
-.show{
-    transition: all 1.5s ease-in-out;
-    opacity: 1;
-}
+
+
 
